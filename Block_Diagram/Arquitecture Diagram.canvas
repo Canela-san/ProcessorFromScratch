@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"1a47fbac6649869c","type":"text","text":"# ALU\n(Arithmetic logic unit)\n","x":-920,"y":-263,"width":305,"height":130},
+		{"id":"36a1a902c43cc8df","x":-919,"y":-100,"width":305,"height":60,"type":"text","text":"# Registradores"},
+		{"id":"872578a8559929dc","x":-919,"y":-520,"width":1019,"height":160,"type":"text","text":"\n# <h1 align='center' style='margin: 40px 0;'>Main Memory</h1>"},
+		{"id":"bba714a21ee28291","x":-520,"y":-263,"width":220,"height":223,"type":"text","text":"# Control Unit"},
+		{"id":"b00bd5281d34f8aa","type":"text","text":"# Dispositivo de Saída","x":-220,"y":-118,"width":320,"height":78},
+		{"id":"70fa3e125ee95a40","x":-220,"y":-263,"width":320,"height":78,"type":"text","text":"# Dispositivo de Entrada"}
+	],
+	"edges":[
+		{"id":"18f693dbe300a68b","fromNode":"36a1a902c43cc8df","fromSide":"right","toNode":"bba714a21ee28291","toSide":"left"},
+		{"id":"f7715ab3e003a8c4","fromNode":"bba714a21ee28291","fromSide":"left","toNode":"1a47fbac6649869c","toSide":"right"},
+		{"id":"cbb884642dce0375","fromNode":"1a47fbac6649869c","fromSide":"right","toNode":"bba714a21ee28291","toSide":"left"},
+		{"id":"0064a70745ed54d6","fromNode":"bba714a21ee28291","fromSide":"left","toNode":"36a1a902c43cc8df","toSide":"right"},
+		{"id":"50167d970b93f9bc","fromNode":"872578a8559929dc","fromSide":"bottom","toNode":"bba714a21ee28291","toSide":"top"},
+		{"id":"18cc10fb3db8e31b","fromNode":"bba714a21ee28291","fromSide":"top","toNode":"872578a8559929dc","toSide":"bottom"},
+		{"id":"5b23ca2c817aedb3","fromNode":"70fa3e125ee95a40","fromSide":"left","toNode":"bba714a21ee28291","toSide":"right"},
+		{"id":"b63b29583d2aa178","fromNode":"bba714a21ee28291","fromSide":"right","toNode":"b00bd5281d34f8aa","toSide":"left"}
+	]
+}
