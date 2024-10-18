@@ -23,19 +23,19 @@ This project aims to design, simulate, and build a custom processor from the gro
 ## Roadmap
 
 1. **Phase 1 - Block Diagram**:
-   - Design the high-level architecture with key components identified.
+   - [x] Design the high-level architecture with key components identified.
 
 2. **Phase 2 - Circuit Simulation**:
-   - Implement each component using logic gates in `Digital` and run simulations to verify functionality.
+   - [ ] Implement each component using logic gates in `Digital` and run simulations to verify functionality.
 
 3. **Phase 3 - MOSFET Conversion**:
-   - Redesign logic gate circuits using MOSFETs and run simulations to confirm accuracy.
+   - [ ] Redesign logic gate circuits using MOSFETs and run simulations to confirm accuracy.
 
 4. **Phase 4 - Assembly Language**:
-   - Create a custom instruction set for the processor and write an assembly program for animation.
+   - [ ] Create a custom instruction set for the processor and write an assembly program for animation.
 
 5. **Phase 5 - Display Simulation**:
-   - Develop a basic display interface to run the assembly program and show animation output.
+   - [ ] Develop a basic display interface to run the assembly program and show animation output.
 
 ## Getting Started
 
