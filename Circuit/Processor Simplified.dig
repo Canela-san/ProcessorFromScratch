@@ -314,7 +314,7 @@
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes/>
-      <pos x="1080" y="400"/>
+      <pos x="1120" y="-300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -324,7 +324,7 @@
           <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="1100" y="400"/>
+      <pos x="1140" y="-300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -816,10 +816,6 @@
       <p2 x="2240" y="140"/>
     </wire>
     <wire>
-      <p1 x="1080" y="400"/>
-      <p2 x="1100" y="400"/>
-    </wire>
-    <wire>
       <p1 x="1940" y="400"/>
       <p2 x="1960" y="400"/>
     </wire>
@@ -922,6 +918,10 @@
     <wire>
       <p1 x="1940" y="360"/>
       <p2 x="1960" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="-300"/>
+      <p2 x="1140" y="-300"/>
     </wire>
     <wire>
       <p1 x="1620" y="-300"/>
