@@ -7,12 +7,12 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-        <entry>
           <string>Selector Bits</string>
           <int>2</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="780" y="300"/>
@@ -23,6 +23,10 @@
         <entry>
           <string>Label</string>
           <string>Funct</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="660" y="360"/>
@@ -89,6 +93,10 @@
         <entry>
           <string>Label</string>
           <string>ULACtrl</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="920" y="340"/>
